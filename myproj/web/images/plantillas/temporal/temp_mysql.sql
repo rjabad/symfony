@@ -1,0 +1,14 @@
+ CREATE TABLE  tb_holoa (
+	HOL_tert INT(0)  NOT NULL  COMMENT 'demo',
+HOL_erter VARCHAR(32)  NOT NULL  COMMENT 'demo',
+HOL_terreweerwe DATE  DEFAULT NULL  COMMENT 'demo',
+HOL_terteerwe CHAR(1)  DEFAULT NULL  COMMENT 'demo'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+ALTER TABLE tb_holoa
+   ADD PRIMARY KEY (HOL_tert);
+
+
+ALTER TABLE tb_holoa 
+	MODIFY HOL_tert int(11) NOT NULL AUTO_INCREMENT COMMENT 'AAA';
